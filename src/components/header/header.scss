@@ -1,6 +1,8 @@
 @import '../../style/colors.scss';
 @import '../../style/variables.scss';
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
 header{
     background-color: $green;
     width: 100vw;
@@ -11,7 +13,8 @@ header{
 
     & .headerContainer{
         display: flex;
-        width: 90vw;
+        width: 96vw;
+        justify-content: space-between;
     }
 
     & p{
@@ -23,30 +26,59 @@ header{
     & .shieldContainer{
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 6px;
+
+        & img{
+            width: 60px;
+        }
     }
 
     & .valuesFields{
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
 
-        & div{
+        & span{
+            color: #696767;
+            font-family: $inter;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        & >  div{
             background-color: $light-gray;
             height: 20px;
-            padding: 5px;
+            padding: 3px 7px 3px 0px;
             gap: 5px;
             border-radius: 5px;
             display: flex;
             align-items: center;
+
+            & > div{
+                background-color: #BBB9B9;
+                border-radius: 5px 0px 0px 5px;
+                height: 20px;
+                padding: 3px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 25px;
+            }
         }
 
         & .moneyValue{
-            
-        
             & .moneyValue_img{
-                height: 20px;
-                width: 20px;
+               & img{
+                width:  25px;
+               }
+            }
+        }
+
+        & .goldBallValue{
+            & .goldBallValue_img{
+                & img{
+                    width: 20px;
+                }
             }
         }
     }
