@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Inter";
-  src: "https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap";
+  font-family: "Inter", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
 }
 header {
   background-color: #71B045;
@@ -12,34 +12,56 @@ header {
 }
 header .headerContainer {
   display: flex;
-  width: 90vw;
+  width: 96vw;
+  justify-content: space-between;
 }
 header p {
   color: #FFFFFF;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 header .shieldContainer {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
+}
+header .shieldContainer img {
+  width: 60px;
 }
 header .valuesFields {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
-header .valuesFields div {
+header .valuesFields span {
+  color: #696767;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+header .valuesFields > div {
   background-color: #F1EDED;
   height: 20px;
-  padding: 5px;
+  padding: 3px 7px 3px 0px;
   gap: 5px;
   border-radius: 5px;
   display: flex;
   align-items: center;
 }
-header .valuesFields .moneyValue .moneyValue_img {
+header .valuesFields > div > div {
+  background-color: #BBB9B9;
+  border-radius: 5px 0px 0px 5px;
   height: 20px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+}
+header .valuesFields .moneyValue .moneyValue_img img {
+  width: 25px;
+}
+header .valuesFields .goldBallValue .goldBallValue_img img {
   width: 20px;
 }
 
