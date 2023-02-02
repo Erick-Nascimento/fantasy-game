@@ -1,0 +1,28 @@
+@import '../../../style/colors.scss';
+@import '../../../style/variables.scss';
+
+.leagueCardComponent{
+    background-color: #F2F2F2;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+
+    & .leagueCardContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+        & p{
+            color: #000000;
+            font-family: $inter;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}

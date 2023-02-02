@@ -1,0 +1,10 @@
+.leaguesCardsComponent{
+    width: 100vw;
+    padding: 10px;
+    overflow-x: auto;
+    & .leaguesCardsContainer{
+        width: 96vw;
+        display: flex;
+        gap: 12px;
+    }
+}

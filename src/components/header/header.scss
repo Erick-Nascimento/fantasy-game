@@ -45,8 +45,8 @@ header{
 
         & >  div{
             background-color: $light-gray;
-            height: 20px;
-            padding: 3px 7px 3px 0px;
+            height: 25px;
+            padding: 5px 10px 5px 0px;
             gap: 5px;
             border-radius: 5px;
             display: flex;
@@ -55,8 +55,8 @@ header{
             & > div{
                 background-color: #BBB9B9;
                 border-radius: 5px 0px 0px 5px;
-                height: 20px;
-                padding: 3px;
+                height: 25px;
+                padding: 2px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -67,7 +67,7 @@ header{
         & .moneyValue{
             & .moneyValue_img{
                & img{
-                width:  25px;
+                width:  100%;
                }
             }
         }
@@ -75,7 +75,7 @@ header{
         & .goldBallValue{
             & .goldBallValue_img{
                 & img{
-                    width: 20px;
+                    width: 90%;
                 }
             }
         }
