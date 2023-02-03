@@ -40,15 +40,17 @@ function LeaguesTabs(){
                     </div>
                 </div>
                 <div className='tabcontent_container'>
-                    <div id='tab-one-content' className='tabcontent active'>
-                        <LeagueTableCard/>
-                        <LeagueTableCard/>
-                    </div>
-                    <div id='tab-two-content' className='tabcontent'>
-                        <LeagueTableCard/>
-                    </div>
-                    <div id='tab-three-content' className='tabcontent'>
-                        <LeagueTableCard/>
+                    <div className='tabcontent_insideContainer'>
+                        <div id='tab-one-content' className='tabcontent active'>
+                            <LeagueTableCard/>
+                            <LeagueTableCard/>
+                        </div>
+                        <div id='tab-two-content' className='tabcontent'>
+                            <LeagueTableCard/>
+                        </div>
+                        <div id='tab-three-content' className='tabcontent'>
+                            <LeagueTableCard/>
+                        </div>
                     </div>
                 </div>
             </div>
