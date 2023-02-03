@@ -1,0 +1,119 @@
+@import '../../../style/colors.scss';
+@import '../../../style/variables.scss';
+
+
+.leagueTableCardComponent{
+    width: calc(50% - 5px);
+    //height: 350px;
+    border-radius: 5px;
+    background-color: $white;
+    position: relative;
+    font-family: $inter;
+    & .leagueTableCardContent{
+        
+        & .leagueTableCard_headerContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3px 0px;
+            & .leagueTableCard_headerContent{
+                display: flex;
+                width: 95%;
+                justify-content: space-between;
+                align-items: center;
+                & .header_membersQtd{
+                    display: flex;
+                    gap: 5px;
+                    & img{
+                        width: 0.7rem;
+                    }
+                    & span{
+                        color: $green;
+                    }
+                }
+                
+            }
+        }
+        & .leagueTableCard_img{
+            width: 100%;
+            & img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        & .leagueTableCard_content{
+            padding: 5px 15px 0px 15px;
+            & .content_title{
+                display: flex;
+                justify-content: center;
+                color: $green;
+            }
+            & .leagueTableCard_award{
+                margin-top: 10px;
+                & > span{
+                    color: $gray;
+                    font-size: 12px;
+                }
+                & .awardsContainer{
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px ;
+                    & span{
+                        color: $green;
+                    }
+                }
+                & img{
+                    width: 20px;
+                    display: flex;
+                    align-items: center;
+                    margin-right: 7px;
+                }
+                & .moneyAward, .goldBallsAward, .couponAward{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            & .leagueTableCard_hrContent{
+                & .leagueTableCard_hr{
+                    border: 1px solid $light-gray;
+                }
+            }
+            & .leagueTableCard_market{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin-bottom: 10px;
+                & .market_label{
+                    font-size: 12px;
+                    color: $gray;
+                }
+                & .market_time{
+                    color: $green;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
+    & .leagueTableCard_btnContainer{
+        background-color: $green;
+        //position: absolute;
+        width: 100%;
+        border-radius: 0px 0px 5px 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        color: $white;
+        bottom: 0;
+        & .leagueTableCard_btnContent{
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            & img{
+                width: 20px;
+            }
+        }
+    }
+}
