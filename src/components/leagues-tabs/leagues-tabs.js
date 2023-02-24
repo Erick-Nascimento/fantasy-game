@@ -1,36 +1,20 @@
-import LeagueTableCard from './league-tables-cards/league-table-card';
 import './leagues-tabs.scss';
-
-function showTabs(e){
-    const tabLinks = document.querySelectorAll(".tabHeader");
-    const tabContent = document.querySelectorAll(".tabcontent");
-
-    tabLinks.forEach(function(el){
-        if(!el.getAttribute('id').includes(e.target.id)){
-            el.classList.remove('active')
-        }else{
-            el.classList.add('active')
-        }
-    })
-    
-    tabContent.forEach(function(el){
-        if(!el.getAttribute('id').includes(e.target.id)){
-            el.classList.remove('active')
-        }else{
-            el.classList.add('active')
-        }
-    })
-}
+import { useState } from 'react';
+import AllTabs from './AllTabs/allTabs';
+import FreeTabs from './FreeTabs/freeTabs';
+import PaidTabs from './PaidTabs/paidTabs';
 
 function LeaguesTabs(){
+    const [activeTab, setActiveTab] = useState("allTabs");
+
     return(
         <div className='leagues-tabs-component'>
             <div className='leagues-tabs-content'>
                 <div className='tabsHeader-content'>
                     <div className='tabs'>
-                        <button id='tab-one' className='tabHeader active' onClick={showTabs}>Todas as Ligas</button>
-                        <button id='tab-two' className='tabHeader' onClick={showTabs}>Ligas Gratuitas</button>
-                        <button id='tab-three' className='tabHeader' onClick={showTabs}>Ligas Pagas</button>
+                        <button id='tab-one' className={activeTab === "allTabs" ? "tabHeader active" : "tabHeader"} onClick={() => setActiveTab("allTabs")}>Todas as Ligas</button>
+                        <button id='tab-two' className={activeTab === "freeTabs" ? "tabHeader active" : "tabHeader"} onClick={() => setActiveTab("freeTabs")}>Ligas Gratuitas</button>
+                        <button id='tab-three' className={activeTab === "paidTabs" ? "tabHeader active" : "tabHeader"} onClick={() => setActiveTab("paidTabs")}>Ligas Pagas</button>
                     </div>
                 </div>
                
@@ -41,16 +25,9 @@ function LeaguesTabs(){
                 </div>
                 <div className='tabcontent_container'>
                     <div className='tabcontent_insideContainer'>
-                        <div id='tab-one-content' className='tabcontent active'>
-                            <LeagueTableCard/>
-                            <LeagueTableCard/>
-                        </div>
-                        <div id='tab-two-content' className='tabcontent'>
-                            <LeagueTableCard/>
-                        </div>
-                        <div id='tab-three-content' className='tabcontent'>
-                            <LeagueTableCard/>
-                        </div>
+                        {activeTab === "allTabs" ? <AllTabs /> : null}
+                        {activeTab === "freeTabs" ? <FreeTabs /> : null}
+                        {activeTab === "paidTabs" ? <PaidTabs /> : null}
                     </div>
                 </div>
             </div>
