@@ -8,3 +8,7 @@
         gap: 12px;
     }
 }
+
+.leaguesCardsComponent::-webkit-scrollbar { 
+	display: none;
+}

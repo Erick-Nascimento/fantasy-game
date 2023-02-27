@@ -1,0 +1,84 @@
+@import '../../style/colors.scss';
+@import '../../style/variables.scss';
+
+.leagues-tabs-component{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex: 1;
+    & .leagues-tabs-content{
+        width: 96vw;
+        background-color: $light-gray2;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+
+        & .tabsHeader-content{
+            display: flex;
+            justify-content: center;
+        }
+        & .tabs{
+            width: 95%;
+            display: flex;
+            justify-content: center;
+            & .tabHeader{
+                width: 33%;
+                height: 100%;
+                border: none;
+                padding: 15px;
+                background-color: $light-gray2;
+                &.active{
+                    border-bottom: 1px solid $green;
+                }
+            }
+        }
+
+       & .tabs_lineContainer{
+        width: 96vw;
+        display: flex;
+        justify-content: center;
+        & .tabs_lineContent{
+            width: 95%;
+            & .tabs_line{
+                width: 100%;
+                border: 1px solid #c1bdbd85;
+                color: #C1BDBD;
+                margin-top: 0px;
+            }
+        }
+       }
+        
+        
+
+        & .tabcontent_container{
+            
+            width: 96vw;
+            display: flex;
+            justify-content: center;
+            overflow-y: scroll; //Essa propriedade diz que se eu tiver vários cards vão ficar escondidos
+            flex: 1;
+            position: relative;
+            
+            & .tabcontent_insideContainer{
+                position: absolute;
+                width: 100%;
+                padding: 20px 5px 0px 5px;
+                height: 100%;
+                
+                & .tabcontent{
+                    display: none;
+                    
+                    &.active{
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                        justify-content: space-between;
+                       padding-bottom: 15px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

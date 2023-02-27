@@ -5,12 +5,18 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header/header'
 import LeaguesCards from './components/leagues-cards/leagues-cards';
+import LeaguesTabs from './components/leagues-tabs/leagues-tabs';
+import BottomNav from './components/bottom-nav/bottom-nav';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
-    <LeaguesCards />
+    <div className='body_content'>
+      <LeaguesCards />
+      <LeaguesTabs/>
+    </div>
+    <BottomNav />
   </React.StrictMode>
 );
 

@@ -1,0 +1,15 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 76px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    & .footerContainer {
+        width: 96vw;
+        display: flex;
+        align-items: center;
+    }
+}
