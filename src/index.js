@@ -3,20 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './reset.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/header/header'
-import LeaguesCards from './components/leagues-cards/leagues-cards';
-import LeaguesTabs from './components/leagues-tabs/leagues-tabs';
-import BottomNav from './components/bottom-nav/bottom-nav';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './routes/home';
+import CreateLeague from './routes/create-league';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />
+  },
+  {
+    path: "create-league",
+    element: <CreateLeague />
+  }
+])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <div className='body_content'>
-      <LeaguesCards />
-      <LeaguesTabs/>
-    </div>
-    <BottomNav />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

@@ -12,7 +12,7 @@ function BottomNav(){
             <div className='footerContainer'>
                 
                 <FooterBtn 
-                    link="www.ligas.com.br"
+                    link="/"
                     img={Trophy}
                     alt="Trophy Image"
                     text="Ligas"
