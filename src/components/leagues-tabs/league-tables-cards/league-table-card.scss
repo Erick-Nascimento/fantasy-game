@@ -9,6 +9,10 @@
     background-color: $white;
     position: relative;
     font-family: $inter;
+
+    & a {
+        text-decoration: none;
+    }
     & .leagueTableCardContent{
         
         & .leagueTableCard_headerContainer{

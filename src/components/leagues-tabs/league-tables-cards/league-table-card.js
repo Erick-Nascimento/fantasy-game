@@ -6,6 +6,7 @@ import CardImg from '../../../assets/img/league-tables-card/league-table-img.svg
 import MoneyIcon from '../../../assets/img/league-tables-card/money-icon.svg'
 import GoldBallIcon from '../../../assets/img/league-tables-card/gold-ball-icon.svg'
 import CouponIcon from '../../../assets/img/league-tables-card/coupon-icon.svg'
+import { Link } from 'react-router-dom';
 
 
 function LeagueTableCard(){
@@ -71,13 +72,15 @@ function LeagueTableCard(){
                     </div>
                 </div>
             </div>
-            <div className='leagueTableCard_btnContainer'>
-                <div className='leagueTableCard_btnContent'>
-                    <span className='tableBtn_price'>Grátis</span>
-                    <img src={GoldBallIcon} alt='' className='tableBtn_priceImg'/>
-                    <span>Entrar</span>
+            <Link to="create-league">
+                <div className='leagueTableCard_btnContainer'>
+                    <div className='leagueTableCard_btnContent'>
+                        <span className='tableBtn_price'>Grátis</span>
+                        <img src={GoldBallIcon} alt='' className='tableBtn_priceImg'/>
+                        <span>Entrar</span>
+                    </div>
                 </div>
-            </div>
+            </Link>
         </div>
      )
 }
