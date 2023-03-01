@@ -1,0 +1,20 @@
+@import '../../style/colors.scss';
+@import '../../style/variables.scss';
+
+.closableHeader{
+    display: flex;
+    padding: 0px 20%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    & a{
+        position: absolute;
+        left: 10%;
+    }
+    & span {
+        color: #fff;
+        font-family: $inter;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}

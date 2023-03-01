@@ -1,6 +1,19 @@
+import ClosableHeader from "../components/closable-header/closable-header";
+import InfosContainer from "../components/infos-container/infos-container";
+import BottomNav from "../components/bottom-nav/bottom-nav";
+import EscalationControls from "../components/escalation-controls/escalation-controls"
+
 function CreateLeague(){
     return(
-        <h1>CreateLeague</h1>
+        <>
+        <ClosableHeader 
+            linkTo="/"
+            span="Escalação 01"
+        />
+        <InfosContainer />
+        <EscalationControls />
+        <BottomNav />
+        </>
     )
 }
 

@@ -1,0 +1,18 @@
+.fieldContainer{
+   position: relative;
+    & .FieldImgContainer{
+        
+        
+        & .fieldImg{
+            width: 100%;
+            
+        }
+    }
+
+    & .PlayersContainer{
+        position: absolute;
+        top: 0;
+    }
+}
+
+

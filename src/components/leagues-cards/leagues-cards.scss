@@ -2,6 +2,8 @@
     width: 100vw;
     padding: 10px;
     overflow-x: auto;
+    display: flex;
+    justify-content: center;
     & .leaguesCardsContainer{
         width: 96vw;
         display: flex;

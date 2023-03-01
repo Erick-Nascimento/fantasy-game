@@ -1,0 +1,22 @@
+.benchContainer{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 5%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    margin: 20px;
+
+    & .benchContainer__title{
+        display: flex;
+        justify-content: center;
+    }
+
+    & .benchContainer__players{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
