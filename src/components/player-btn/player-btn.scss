@@ -1,0 +1,30 @@
+.playerBtnContainer{
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    gap: 5px;
+
+    & .PlayerBtn{
+        border: 2px solid #FFFFFF;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        background-color: #F87255;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    & .PlayerBtn_label{
+        background-color: #3F843D;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 10px;
+        border-radius: 3px;
+    }
+}

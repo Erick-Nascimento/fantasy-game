@@ -1,0 +1,15 @@
+@import '../../../style/colors.scss';
+@import '../../../style/variables.scss';
+
+.clearBtn{
+    background-color: $red;
+    border: none;
+    color: $white;
+    width: 102px;
+    height: 28px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
