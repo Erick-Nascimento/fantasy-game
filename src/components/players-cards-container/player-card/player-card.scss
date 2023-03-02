@@ -1,0 +1,132 @@
+.playerCard{
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2%;
+    height: 150px;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+
+    & .playerCard__top{
+        display: flex;
+        align-items: center;
+  
+        & .playerIconContainer{
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            & .playerIcon{
+                border: 2px solid #FFFFFF;
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: red;
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+                & span{
+                    background-color: black;
+                    color: white;
+                    border-radius: 2px;
+                    padding: 1px 5px;
+                    font-size: 12px;
+                }
+            }
+        }
+        
+
+        & .playerInfos{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin: 0 20px;
+            & .playerName{
+
+            }
+
+            & .teamNames{
+                font-size: 12px;
+                & em{
+                    font-weight: bold;
+                }
+            }
+            & .matchInfos{
+                display: flex;
+                gap: 15px;
+
+                & div{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                }
+                & .date{
+                    & img{
+                        width: 12px;
+                    }
+                }
+    
+                & .hour{
+                    & img{
+                        width: 14px;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    & .playerCard__bottom{
+        display: flex;
+        
+        & > div > p{
+            
+        }
+
+        & > div > span{
+            
+        }
+
+        & .price{
+            background-color: #ECECEC;
+            border-radius: 5px;
+            padding: 5px;
+            width: 25%;
+            margin-right: 20px;
+        }
+
+        & div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & span{
+                margin-top: 10px;
+            }
+        }
+
+        & .last{
+            
+        }
+
+        & .average{
+
+        }
+
+        & .status{
+            & img{
+                width: 15px;
+                margin-top: 11px;
+            }
+        }
+
+        & .matches{
+
+        }
+    }
+}

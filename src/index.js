@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './routes/home';
 import CreateLeague from './routes/create-league';
+import BuyPlayers from './routes/buy-players'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "create-league",
     element: <CreateLeague />
+  },
+  {
+    path: "create-league/buy-players",
+    element: <BuyPlayers />
   }
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));

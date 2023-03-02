@@ -1,0 +1,41 @@
+@import '../../style/colors.scss';
+
+.searchContainer{
+    background-color: $light-gray2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+
+    & .searchInput{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        
+        & input{
+            margin: 15px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 10px 10px 50px; 
+            width: 100%;
+        }
+
+        & input::placeholder{
+            color: #8B8888;
+        }
+
+        & img{
+            position: absolute;
+            left: 10%;
+        }
+    }
+    & select{
+        outline: none;
+        margin: 0 15px 15px 15px;
+        border-radius: 5px;
+        color: #8B8888;
+    }
+}
