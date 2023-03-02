@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 function PlayerBtn(){
     return(
         <div className='playerBtnContainer'>
-            <Link>
+            <Link to="buy-players">
                 <button className='PlayerBtn'>
                     <img src={PlusIcon} alt="Plus Icon" />
                 </button>
