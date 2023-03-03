@@ -26,7 +26,7 @@ function BottomNav(){
                 />
 
                 <FooterBtn 
-                    link="www.ligas.com.br"
+                    link="store"
                     img={Store}
                     alt="Trophy Image"
                     text="Loja"
