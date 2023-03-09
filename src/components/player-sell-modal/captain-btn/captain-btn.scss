@@ -1,0 +1,16 @@
+.captainBtn{
+    background-color: #F8C40E;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    & img{
+        width: 25px;
+    }
+}

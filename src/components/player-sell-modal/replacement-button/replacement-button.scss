@@ -1,0 +1,15 @@
+.replacementBtn{
+    background-color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    & img{
+        width: 25px;
+    }
+}

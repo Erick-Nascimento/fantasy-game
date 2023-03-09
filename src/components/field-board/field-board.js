@@ -1,7 +1,6 @@
 import './field-board.scss';
 import PlayerBtn from '../player-btn/player-btn';
-import Field from '../../assets/img/field.svg'
-
+import Field from '../../assets/img/field.svg';
 
 function FieldBoard(){
     return(
@@ -11,7 +10,7 @@ function FieldBoard(){
             </div>
             
             <div className='PlayersContainer'>
-                <PlayerBtn />
+                <PlayerBtn linkTo="buy-players"/>
             </div>
             
         </section>
