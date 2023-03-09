@@ -1,0 +1,52 @@
+@import '../../style/colors.scss';
+
+.IconButton{
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    & img{
+        width: 25px;
+    }
+}
+
+.green{
+    background-color: $green;
+}
+
+.yellow{
+    background-color: $yellow;
+}
+
+.red{
+    background-color: $red;
+}
+
+.white{
+    background-color: $white;
+}
+
+.txtBlack{
+    color: #000000;
+}
+
+.small{
+    width: 102px;
+    height: 28px;
+}
+
+.medium{
+    width: 150px;
+    height: 40px;
+}
+
+.big{
+    width: 180px;
+    height: 40px;
+}

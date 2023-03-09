@@ -16,28 +16,10 @@
   
         & .playerIconContainer{
             width: 25%;
+            height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            & .playerIcon{
-                border: 2px solid #FFFFFF;
-                border-radius: 50%;
-                width: 60px;
-                height: 60px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: red;
-                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    
-                & span{
-                    background-color: black;
-                    color: white;
-                    border-radius: 2px;
-                    padding: 1px 5px;
-                    font-size: 12px;
-                }
-            }
         }
         
 
@@ -98,35 +80,20 @@
             padding: 5px;
             width: 25%;
             margin-right: 20px;
-        }
-
-        & div{
             display: flex;
             flex-direction: column;
             align-items: center;
-
+            gap: 5px;
+            & p{
+                
+            }
             & span{
-                margin-top: 10px;
+                font-weight: bold;
+                font-size: 14px;
             }
         }
-
-        & .last{
-            
-        }
-
-        & .average{
-
-        }
-
-        & .status{
-            & img{
-                width: 15px;
-                margin-top: 11px;
-            }
-        }
-
-        & .matches{
-
+        & .infosContainerComponent{
+            width: 75%;
         }
     }
 }
