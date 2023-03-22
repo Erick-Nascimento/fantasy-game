@@ -1,0 +1,90 @@
+@import '../../style/colors.scss';
+
+.playerSellModal{
+    position: fixed;
+    bottom: 0;
+    background-color: $light-gray2;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    border-radius: 15px 15px 0 0;
+    padding: 25px 20px 10px 20px;
+
+    & .closeIcon {
+        position: absolute;
+        left: 25px;
+        top: 25px;
+        width: 0.7rem;
+    }
+
+    & .playerIconContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0;
+    }
+
+    &  .playerInfos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        & > span{
+            font-size: 18px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            
+        }
+        & .playerNameContainer {
+            display: flex;
+            gap: 10px;
+
+            & span{
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+
+        & .modalInfosContainer{
+            width: 100%;
+            padding: 2% 10%;
+            height: 100%;
+        }
+        & .modalPlayerPrice{
+            background-color: #fff;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            padding: 15px 0;
+            font-size: 15px;
+            
+            & em{
+                font-weight: 600;
+                font-size: 18px;
+            }
+        }
+        & .matchInfos{
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 15px 0;
+            font-size: 15px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            & span{
+                & em{
+
+                }
+            }
+        }
+        & .modalButtons{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+        }
+    }
+}

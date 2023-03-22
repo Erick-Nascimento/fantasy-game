@@ -2,10 +2,10 @@ import './player-btn.scss';
 import PlusIcon from '../../assets/img/plus.svg'
 import {Link} from 'react-router-dom';
 
-function PlayerBtn(){
+function PlayerBtn(props){
     return(
         <div className='playerBtnContainer'>
-            <Link to="buy-players">
+            <Link to={props.linkTo}>
                 <button className='PlayerBtn'>
                     <img src={PlusIcon} alt="Plus Icon" />
                 </button>

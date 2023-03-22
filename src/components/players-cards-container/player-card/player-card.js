@@ -2,16 +2,15 @@ import './player-card.scss';
 import TransactionBtn from './transaction-btn/transaction-btn';
 import CalendarIcon from '../../../assets/img/calendar-icon.svg';
 import ClockIcon from '../../../assets/img/clock-icon.svg';
-import ConfirmedIcon from '../../../assets/img/player-card-status/confirmed-icon.svg';
+import PlayerIcon from '../../player-icon/player-icon';
+import InfosContainer from './infos-container/infos-container';
 
 function PlayerCard(){
     return(
         <div className='playerCard'>
             <div className='playerCard__top'>
                 <div className='playerIconContainer'>
-                    <div className='playerIcon'>
-                        <span>FLA</span>
-                    </div>
+                    <PlayerIcon />
                 </div>
                 <div className='playerInfos'>
                     <span className='playerName'>Carlos</span>
@@ -34,24 +33,8 @@ function PlayerCard(){
                     <p>Preço</p>
                     <span>R$ 12.000</span>
                 </div>
-                <div className='last'>
-                    <p>Ultima</p>
-                    <span>1.57</span>
-                </div>
-                <hr />
-                <div className='average'>
-                    <p>Média</p>
-                    <span>1.57</span>
-                </div>
-                <hr />
-                <div className='status'>
-                    <p>Status</p>
-                    <img src={ConfirmedIcon} alt='Confirmed Icon' />
-                </div>
-                <hr />
-                <div className='matches'>
-                    <p>Partidas</p>
-                    <span>3</span>
+                <div className='infosContainerComponent'>
+                    <InfosContainer />
                 </div>
             </div>
         </div>
