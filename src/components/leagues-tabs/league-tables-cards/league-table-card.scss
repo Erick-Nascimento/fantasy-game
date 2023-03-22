@@ -35,6 +35,16 @@
                         color: $green;
                     }
                 }
+                & > div{
+                    display: flex;
+                    align-items: center;
+                    color: $green;
+                }
+                & .header_membersQtd{
+                    & svg{
+                        width: 13px;
+                    }
+                }
                 
             }
         }

@@ -7,6 +7,10 @@ import MoneyIcon from '../../../assets/img/league-tables-card/money-icon.svg'
 import GoldBallIcon from '../../../assets/img/league-tables-card/gold-ball-icon.svg'
 import CouponIcon from '../../../assets/img/league-tables-card/coupon-icon.svg'
 import { Link } from 'react-router-dom';
+import { AiFillInfoCircle } from 'react-icons/ai';
+import { TbCircleLetterC } from 'react-icons/tb';
+import { FaUserAlt } from 'react-icons/fa';
+import { FaMoneyBillAlt } from 'react-icons/fa';
 
 
 function LeagueTableCard(){
@@ -16,14 +20,17 @@ function LeagueTableCard(){
                 <div className='leagueTableCard_headerContainer'>
                     <div className='leagueTableCard_headerContent'>
                         <div className='header_captainContainer'>
-                            <img src={CaptainIcon} alt=""/>
+                            {/*<img src={CaptainIcon} alt=""/>*/}
+                            <TbCircleLetterC />
                         </div>
                         <div className='header_membersQtd'>
-                            <img src={SubscribesIcon} alt=""/>
+                            {/*<img src={SubscribesIcon} alt=""/>*/}
+                            <FaUserAlt />
                             <span>9/100</span>
                         </div>
                         <div className='header_info'>
-                            <img src={InfoIcon} alt=""/>
+                            {/*<img src={InfoIcon} alt=""/>*/}
+                            <AiFillInfoCircle />
                         </div>
                     </div>
                 </div>
@@ -39,7 +46,8 @@ function LeagueTableCard(){
                         <div className='awardsContainer'>
                             <div className='moneyAward'>
                                 <div className=''>
-                                    <img src={MoneyIcon} alt=''/>
+                                    {/*<img src={MoneyIcon} alt=''/>*/}
+                                    <FaMoneyBillAlt />
                                 </div>
                                 <div className=''>
                                     <span>R$50,00</span>
