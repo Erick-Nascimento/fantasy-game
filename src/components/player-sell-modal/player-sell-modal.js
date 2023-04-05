@@ -10,11 +10,12 @@ import IconButton from '../icon-button/icon-button';
 import CaptainBand from '../../assets/img/captain-band.svg';
 import ReplacementIcon from '../../assets/img/replacement-icon.svg';
 import SellTag from '../../assets/img/sell-tag.svg';
+import { useState } from 'react';
 
-function PlayerSellModal(){
+function PlayerSellModal(){    
     return(
         <div className='playerSellModal'>
-            <img src={CloseIcon} alt="Close Icon" className='closeIcon' />
+            <img src={CloseIcon} alt="Close Icon" className='closeIcon'/>
             <div className='playerIconContainer'>
                 <PlayerIcon />
             </div>
