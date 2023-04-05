@@ -1,0 +1,43 @@
+{
+    "leagues": [
+        { 
+            "id": 1, 
+            "title": "Liga dos Amigos",
+            "captain": true,
+            "type": "Gratuita",
+            "number_of_members": 27,
+            "closing_date": "06/04/2023",
+            "closing_hour": "16:00",
+            "awards": [
+                {
+                    "money": 50,
+                    "gold_ball": 100,
+                    "coupon": 10
+                }
+            ]
+        }
+    ],
+    "players": [
+        {
+            "id": 1,
+            "name": "Felipe Luís",
+            "team": "Flamengo",
+            "position": "defender",
+            "price": 12.000,
+            "status": "confirmed"
+        },
+        {
+            "id": 2,
+            "name": "David Luís",
+            "team": "Flamengo",
+            "position": "defender",
+            "price": 12.000,
+            "status": "confirmed"
+        }
+    ],
+    "matches": [
+        {
+            "id": 1
+        }
+    ]
+}
