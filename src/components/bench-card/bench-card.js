@@ -8,11 +8,11 @@ function BenchCard(){
                 <span>Banco de Reservas</span>
             </div>
             <div className='benchContainer__players'>
-                <PlayerBtn linkTo="buy-players"/>
-                <PlayerBtn linkTo="buy-players"/>
-                <PlayerBtn linkTo="buy-players"/>
-                <PlayerBtn linkTo="buy-players"/>
-                <PlayerBtn linkTo="buy-players"/>
+                <PlayerBtn linkTo="buy-players" position="goalkeeper"/>
+                <PlayerBtn linkTo="buy-players" position="defender"/>
+                <PlayerBtn linkTo="buy-players" position="full-back"/>
+                <PlayerBtn linkTo="buy-players" position="midfielder"/>
+                <PlayerBtn linkTo="buy-players" position="atacker"/>
             </div>
             
         </div>

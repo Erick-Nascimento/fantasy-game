@@ -39,5 +39,301 @@
         {
             "id": 1
         }
+    ],
+    "formations":[
+        {
+            "id": "4-3-3",
+            "positions": [
+                {
+                    "id": 1,
+                    "name": "goalkeeper"
+                },
+                {
+                    "id": 2,
+                    "name": "defender"
+                },
+                {
+                    "id": 3,
+                    "name": "defender"
+                },
+                {
+                    "id": 4,
+                    "name": "defender"
+                },
+                {
+                    "id": 5,
+                    "name": "defender"
+                },
+                {
+                    "id": 6,
+                    "name": "full-back"
+                },
+                {
+                    "id": 7,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 8,
+                    "name": "full-back"
+                },
+                {
+                    "id": 9,
+                    "name": "atacker"
+                },
+                {
+                    "id": 10,
+                    "name": "atacker"
+                },
+                {
+                    "id": 11,
+                    "name": "atacker"
+                }
+            ]
+        },
+        {
+            "id": "3-4-3",
+            "positions": [
+                {
+                    "id": 1,
+                    "name": "goalkeeper"
+                },
+                {
+                    "id": 2,
+                    "name": "defender"
+                },
+                {
+                    "id": 3,
+                    "name": "defender"
+                },
+                {
+                    "id": 4,
+                    "name": "defender"
+                },
+                {
+                    "id": 5,
+                    "name": "full-back"
+                },
+                {
+                    "id": 6,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 7,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 8,
+                    "name": "full-back"
+                },
+                {
+                    "id": 9,
+                    "name": "atacker"
+                },
+                {
+                    "id": 10,
+                    "name": "atacker"
+                },
+                {
+                    "id": 11,
+                    "name": "atacker"
+                }
+            ]
+        },
+        {
+            "id": "4-5-1",
+            "positions": [
+                {
+                    "id": 1,
+                    "name": "goalkeeper"
+                },
+                {
+                    "id": 2,
+                    "name": "defender"
+                },
+                {
+                    "id": 3,
+                    "name": "defender"
+                },
+                {
+                    "id": 4,
+                    "name": "defender"
+                },
+                {
+                    "id": 5,
+                    "name": "defender"
+                },
+                {
+                    "id": 6,
+                    "name": "full-back"
+                },
+                {
+                    "id": 7,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 8,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 9,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 10,
+                    "name": "full-back"
+                },
+                {
+                    "id": 11,
+                    "name": "atacker"
+                }
+            ]
+        },
+        {
+            "id": "4-4-2",
+            "positions": [
+                {
+                    "id": 1,
+                    "name": "goalkeeper"
+                },
+                {
+                    "id": 2,
+                    "name": "defender"
+                },
+                {
+                    "id": 3,
+                    "name": "defender"
+                },
+                {
+                    "id": 4,
+                    "name": "defender"
+                },
+                {
+                    "id": 5,
+                    "name": "defender"
+                },
+                {
+                    "id": 6,
+                    "name": "full-back"
+                },
+                {
+                    "id": 7,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 8,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 9,
+                    "name": "full-back"
+                },
+                {
+                    "id": 10,
+                    "name": "atacker"
+                },
+                {
+                    "id": 11,
+                    "name": "atacker"
+                }
+            ]
+        },
+        {
+            "id": "3-5-2",
+            "positions": [
+                {
+                    "id": 1,
+                    "name": "goalkeeper"
+                },
+                {
+                    "id": 2,
+                    "name": "defender"
+                },
+                {
+                    "id": 3,
+                    "name": "defender"
+                },
+                {
+                    "id": 4,
+                    "name": "defender"
+                },
+                {
+                    "id": 5,
+                    "name": "full-back"
+                },
+                {
+                    "id": 6,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 7,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 8,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 9,
+                    "name": "full-back"
+                },
+                {
+                    "id": 10,
+                    "name": "atacker"
+                },
+                {
+                    "id": 11,
+                    "name": "atacker"
+                }
+            ]
+        },
+        {
+            "id": "5-4-1",
+            "positions": [
+                {
+                    "id": 1,
+                    "name": "goalkeeper"
+                },
+                {
+                    "id": 2,
+                    "name": "defender"
+                },
+                {
+                    "id": 3,
+                    "name": "defender"
+                },
+                {
+                    "id": 4,
+                    "name": "defender"
+                },
+                {
+                    "id": 5,
+                    "name": "defender"
+                },
+                {
+                    "id": 6,
+                    "name": "defender"
+                },
+                {
+                    "id": 7,
+                    "name": "full-back"
+                },
+                {
+                    "id": 8,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 9,
+                    "name": "midfielder"
+                },
+                {
+                    "id": 10,
+                    "name": "full-back"
+                },
+                {
+                    "id": 11,
+                    "name": "atacker"
+                }
+            ]
+        }
     ]
 }

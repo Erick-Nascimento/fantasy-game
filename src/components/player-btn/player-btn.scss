@@ -11,7 +11,6 @@
         border-radius: 100%;
         width: 40px;
         height: 40px;
-        background-color: #F87255;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -26,5 +25,341 @@
         align-items: center;
         padding: 2px 10px;
         border-radius: 3px;
+    }
+}
+
+.goalkeeper .PlayerBtn{
+    background-color: #53C0FE;
+}
+
+.full-back .PlayerBtn{
+    background-color: #60F32D;
+}
+
+.midfielder .PlayerBtn{
+    background-color: #F8B755;
+}
+
+.atacker .PlayerBtn{
+    background-color: #F87255;
+}
+
+.defender .PlayerBtn{
+    background-color: #B42DF3;
+}
+
+.goalkeeper{
+    & .PlayerBtn_label > span::after{
+        content: 'GOL';
+    }
+}
+
+.defender{
+    & .PlayerBtn_label > span::after{
+        content: 'ZAG';
+    }
+}
+
+.full-back{
+    & .PlayerBtn_label > span::after{
+        content: 'LAT';
+    }
+}
+
+.midfielder{
+    & .PlayerBtn_label > span::after{
+        content: 'MEI';
+    }
+}
+
+.atacker{
+    & .PlayerBtn_label > span::after{
+        content: 'ATA';
+    }
+}
+
+.f4-3-3{
+    .goalkeeper{
+        left: calc(50% - 23px);
+        bottom: 3%;
+    }
+    .defender:nth-child(5){
+        bottom: 15%;
+        left: 12%;
+    }
+    .defender:nth-child(2){
+        bottom: 22%;
+        left: 30%;
+    }
+    .defender:nth-child(3){
+        bottom: 22%;
+        left: 59%;
+    }
+    .defender:nth-child(4){
+        bottom: 15%;
+        left: 76%;
+    }
+    .full-back:nth-child(6){
+        bottom: 45%;
+        left: 22%;
+    }
+    .midfielder:nth-child(7){
+        bottom: 40%;
+        left: calc(50% - 23px);
+    }
+    .full-back:nth-child(8){
+        bottom: 45%;
+        left: 67%;
+    }
+    .atacker:nth-child(9){
+        bottom: 65%;
+        left: 25%;
+    }
+    .atacker:nth-child(10){
+        bottom: 75%;
+        left: calc(50% - 23px);
+    }
+    .atacker:nth-child(11){
+        bottom: 65%;
+        left: 64%;
+    }
+}
+
+.f3-4-3{
+    .goalkeeper{
+        left: calc(50% - 23px);
+        bottom: 3%;
+    }
+    .defender:nth-child(2){
+        bottom: 20%;
+        left: 20%;
+    }
+    .defender:nth-child(3){
+        bottom: 20%;
+        left: calc(50% - 23px);
+    }
+    .defender:nth-child(4){
+        bottom: 20%;
+        left: 69%;
+    }
+    .full-back:nth-child(5){
+        bottom: 54%;
+        left: 12%;
+    }
+    .midfielder:nth-child(6){
+        bottom: 42%;
+        left: 28%;
+    }
+    .midfielder:nth-child(7){
+        bottom: 42%;
+        left: 60%;
+    }
+    .full-back:nth-child(8){
+        bottom: 54%;
+        left: 76%;
+    }
+    .midfielder:nth-child(8){
+        bottom: 54%;
+        left: 76%;
+    }
+    .atacker:nth-child(9){
+        bottom: 70%;
+        left: 21%;
+    }
+    .atacker:nth-child(10){
+        bottom: 77%;
+        left: calc(50% - 23px);
+    }
+    .atacker:nth-child(11){
+        bottom: 70%;
+        left: 68%;
+    }
+}
+
+.f4-5-1{
+    .goalkeeper{
+        left: calc(50% - 23px);
+        bottom: 3%;
+    }
+    .defender:nth-child(5){
+        bottom: 20%;
+        left: 12%;
+    }
+    .defender:nth-child(2){
+        bottom: 30%;
+        left: 30%;
+    }
+    .defender:nth-child(3){
+        bottom: 30%;
+        left: 59%;
+    }
+    .defender:nth-child(4){
+        bottom: 20%;
+        left: 76%;
+    }
+    .full-back:nth-child(6){
+        bottom: 65%;
+        left: 10%;
+    }
+    .midfielder:nth-child(7){
+        bottom: 45%;
+        left: calc(50% - 23px);
+    }
+    .full-back:nth-child(10){
+        bottom: 65%;
+        left: 79%;
+    }
+    .midfielder:nth-child(9){
+        bottom: 50%;
+        left: 20%;
+    }
+    .midfielder:nth-child(8){
+        bottom: 50%;
+        left: 68%;
+    }
+    .atacker:nth-child(11){
+        bottom: 80%;
+        left: calc(50% - 23px);
+    }
+}
+
+.f4-4-2{
+    .goalkeeper{
+        left: calc(50% - 23px);
+        bottom: 3%;
+    }
+    .defender:nth-child(5){
+        bottom: 20%;
+        left: 12%;
+    }
+    .defender:nth-child(2){
+        bottom: 30%;
+        left: 30%;
+    }
+    .defender:nth-child(3){
+        bottom: 30%;
+        left: 59%;
+    }
+    .defender:nth-child(4){
+        bottom: 20%;
+        left: 76%;
+    }
+    .full-back:nth-child(6){
+        bottom: 50%;
+        left: 10%;
+    }
+    .midfielder:nth-child(7){
+        bottom: 45%;
+        left: 33%;
+    }
+    .midfielder:nth-child(8){
+        bottom: 45%;
+        left: 57%;
+    }
+    .full-back:nth-child(9){
+        bottom: 50%;
+        left: 79%;
+    }
+    .atacker:nth-child(10){
+        bottom: 70%;
+        left: 28%;
+    }
+    .atacker:nth-child(11){
+        bottom: 70%;
+        left: 61%;
+    }
+}
+
+.f3-5-2{
+    .goalkeeper{
+        left: calc(50% - 23px);
+        bottom: 3%;
+    }
+    .defender:nth-child(4){
+        bottom: 20%;
+        left: 20%;
+    }
+    .defender:nth-child(2){
+        bottom: 20%;
+        left: calc(50% - 23px);
+    }
+    .defender:nth-child(3){
+        bottom: 20%;
+        left: 68%;
+    }
+    .full-back:nth-child(5){
+        bottom: 50%;
+        left: 10%;
+    }
+    .midfielder:nth-child(6){
+        bottom: 35%;
+        left: 25%;
+    }
+    .midfielder:nth-child(7){
+        bottom: 45%;
+        left: calc(50% - 23px);
+    }
+    .midfielder:nth-child(8){
+        bottom: 35%;
+        left: 63%;
+    }
+    .full-back:nth-child(9){
+        bottom: 50%;
+        left: 79%;
+    }
+    .atacker:nth-child(10){
+        bottom: 70%;
+        left: 28%;
+    }
+    .atacker:nth-child(11){
+        bottom: 70%;
+        left: 61%;
+    }
+}
+
+.f5-4-1{
+    .goalkeeper{
+        left: calc(50% - 23px);
+        bottom: 3%;
+    }
+    .defender:nth-child(4){
+        bottom: 35%;
+        left: 10%;
+    }
+    .defender:nth-child(2){
+        bottom: 20%;
+        left: 25%;
+    }
+    .defender:nth-child(3){
+        bottom: 30%;
+        left: calc(50% - 23px);
+    }
+    .defender:nth-child(5){
+        bottom: 20%;
+        left: 64%;
+    }
+    .defender:nth-child(6){
+        bottom: 35%;
+        left: 78%;
+    }
+    .full-back:nth-child(7){
+        bottom: 60%;
+        left: 12%;
+    }
+    .midfielder:nth-child(8){
+        bottom: 47%;
+        left: 30%;
+    }
+    .midfielder:nth-child(9){
+        bottom: 47%;
+        left: 59%;
+    }
+    .full-back:nth-child(10){
+        bottom: 60%;
+        left: 76%;
+    }
+    .atacker:nth-child(11){
+        bottom: 70%;
+        left: calc(50% - 23px);
     }
 }
