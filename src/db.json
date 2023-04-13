@@ -17,24 +17,103 @@
             ]
         }
     ],
-    "players": [
+    "players": 
         {
-            "id": 1,
-            "name": "Felipe Luís",
-            "team": "Flamengo",
-            "position": "defender",
-            "price": 12.000,
-            "status": "confirmed"
+            "atacker": [
+                {
+                    "id": 1,
+                    "name": "Gabigol",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 2,
+                    "name": "Pedro",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 3,
+                    "name": "Neymar",
+                    "team": "Santos",
+                    "price": 14000,
+                    "status": "confirmed"
+                }
+            ],
+            "midfielder": [
+                {
+                    "id": 1,
+                    "name": "Gerson",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 2,
+                    "name": "Thiago Maia",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                }
+            ],
+            "full-back": [
+                {
+                    "id": 1,
+                    "name": "Ayrton Lucas",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 2,
+                    "name": "Bruno Henrique",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                }
+            ],
+            "defender": [
+                {
+                    "id": 1,
+                    "name": "David Luiz",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 2,
+                    "name": "Felipe Luiz",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 3,
+                    "name": "Leo Pereira",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                }
+            ],
+            "goalkeeper": [
+                {
+                    "id": 1,
+                    "name": "Santos",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 2,
+                    "name": "Hugo Souza",
+                    "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                }
+            ]
         },
-        {
-            "id": 2,
-            "name": "David Luís",
-            "team": "Flamengo",
-            "position": "defender",
-            "price": 12.000,
-            "status": "confirmed"
-        }
-    ],
     "matches": [
         {
             "id": 1

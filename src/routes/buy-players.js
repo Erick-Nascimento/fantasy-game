@@ -8,7 +8,6 @@ function BuyPlayers(){
         <>
         <ClosableHeader 
             linkTo="/create-league"
-            span="Atacantes"
         />
         <InfosContainer />
         <SearchContainer />
