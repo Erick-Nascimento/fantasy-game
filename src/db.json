@@ -36,8 +36,15 @@
                 },
                 {
                     "id": 3,
-                    "name": "Neymar",
-                    "team": "Santos",
+                    "name": "Germán Cano",
+                    "team": "Fluminense",
+                    "price": 14000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 3,
+                    "name": "Endrick Felipe",
+                    "team": "Palmeiras",
                     "price": 14000,
                     "status": "confirmed"
                 }
@@ -47,6 +54,13 @@
                     "id": 1,
                     "name": "Gerson",
                     "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 2,
+                    "name": "Carlos Eduardo",
+                    "team": "Botafogo",
                     "price": 12000,
                     "status": "confirmed"
                 },
@@ -83,6 +97,13 @@
                     "status": "confirmed"
                 },
                 {
+                    "id": 3,
+                    "name": "Tinga",
+                    "team": "Fortaleza",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
                     "id": 2,
                     "name": "Felipe Luiz",
                     "team": "Flamengo",
@@ -102,6 +123,20 @@
                     "id": 1,
                     "name": "Santos",
                     "team": "Flamengo",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 3,
+                    "name": "Weverton",
+                    "team": "Palmeiras",
+                    "price": 12000,
+                    "status": "confirmed"
+                },
+                {
+                    "id": 3,
+                    "name": "Lucas Perri",
+                    "team": "Botafogo",
                     "price": 12000,
                     "status": "confirmed"
                 },

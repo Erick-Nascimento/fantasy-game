@@ -1,9 +1,9 @@
 import './player-icon.scss';
 
-function PlayerIcon(){
+function PlayerIcon({team}){
     return(
-        <div className='playerIcon'>
-            <span>FLA</span>
+        <div className={`playerIcon ${team}`}>
+            <span></span>
         </div>
     )
 }

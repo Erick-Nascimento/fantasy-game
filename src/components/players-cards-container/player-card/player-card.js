@@ -10,7 +10,7 @@ function PlayerCard({name, team, opponent, date, hour, price}){
         <div className='playerCard'>
             <div className='playerCard__top'>
                 <div className='playerIconContainer'>
-                    <PlayerIcon />
+                    <PlayerIcon team={team}/>
                 </div>
                 <div className='playerInfos'>
                     <span className='playerName'>{name}</span>

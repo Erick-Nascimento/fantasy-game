@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     & span{
@@ -15,5 +14,145 @@
         border-radius: 2px;
         padding: 1px 5px;
         font-size: 12px;
+    }
+}
+
+.Palmeiras{
+    background: linear-gradient(180deg, #006437 50%, #FFFFFF 50%);
+    & > span::before{
+        content: 'PAL';
+    }
+}
+
+.Santos{
+    background: linear-gradient(90deg, #000000 50%, #FFFFFF 50%);
+    & > span::before{
+        content: 'SAN';
+    }
+}
+
+.Juventude{
+    background: linear-gradient(45deg, #2e832b 50%, #FFFFFF 50%);
+    & > span::before{
+        content: 'JUV';
+    }
+}
+
+.AmericaMineiro{
+    background: linear-gradient(-45deg, #007242 50%, #FFFFFF 50%);
+    & > span::before{
+        content: 'AME';
+    }
+}
+
+.RedBullBragantino{
+    background: linear-gradient(90deg, #d30039 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #001744 64.06%);
+    & > span::before{
+        content: 'RBB';
+    }
+}
+
+.Fluminense{
+    background: linear-gradient(90deg, #006139 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #880323 64.06%);
+    & > span::before{
+        content: 'FLU';
+    }
+}
+
+.Fortaleza{
+    background: linear-gradient(90deg, #0f43aa 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #c61523 64.06%);
+    & > span::before{
+        content: 'FOR';
+    }
+}
+
+.Avai{
+    background: linear-gradient(90deg, #00679a 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #00679a 64.06%);
+    & > span::before{
+        content: 'AVA';
+    }
+}
+
+.Flamengo{
+    background: linear-gradient(180deg, #010103 50%, #c02418 50%);
+    & > span::before{
+        content: 'FLA';
+    }
+}
+
+.AtleticoGoianiense{
+    background: linear-gradient(90deg, #000000 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #dd0a0a 64.06%);
+    & > span::before{
+        content: 'ATG';
+    }
+}
+
+.SaoPaulo {
+    background: linear-gradient(90deg, #D70000 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #000000 64.06%);
+    & > span::before{
+        content: 'SAO';
+    }
+}
+
+.Ceara{
+    background: linear-gradient(90deg, #000000 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #000000 64.06%);
+    & > span::before{
+        content: 'CEA';
+    }
+}
+
+.AtleticoMineiro{
+    background: linear-gradient(90deg, #000000 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #000000 64.06%);
+    & > span::before{
+        content: 'AMG';
+    }
+}
+
+.Internacional{
+    background: linear-gradient(90deg, #e5050f 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #e5050f 64.06%);
+    & > span::before{
+        content: 'INT';
+    }
+}
+
+.AthleticoParanaense{
+    background: linear-gradient(-45deg, #c8102e 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #000000 64.06%);
+    & > span::before{
+        content: 'ATP';
+    }
+}
+
+.Botafogo{
+    background: linear-gradient(90deg, #000000 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #000000 64.06%);
+    & > span::before{
+        content: 'BOT';
+    }
+}
+
+.Cuiaba{
+    background: linear-gradient(180deg, #fde718 50%, #066334 50%);
+    & > span::before{
+        content: 'CUI';
+    }
+}
+
+.Corinthians{
+    background: linear-gradient(90deg, #000000 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #fd0000 64.06%);
+    & > span::before{
+        content: 'COR';
+    }
+}
+
+.Goias{
+    background: linear-gradient(90deg, #005e4f 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #005e4f 64.06%);
+    & > span::before{
+        content: 'GOI';
+    }
+}
+
+.Coritiba{
+    background: linear-gradient(180deg, #00534c 34.37%, #FFFFFF 34.38%, #FFFFFF 64.05%, #00534c 64.06%);
+    & > span::before{
+        content: 'COR';
     }
 }
