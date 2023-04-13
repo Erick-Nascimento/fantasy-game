@@ -3,6 +3,7 @@ import PlayerBtn from '../player-btn/player-btn';
 import Field from '../../assets/img/field.svg';
 import { useContext, useEffect, useState } from 'react';
 import {FormationsContext} from '../../context';
+import BuyPlayers from '../../routes/buy-players';
 
 function FieldBoard(props){
     const {formation} = useContext(FormationsContext)
@@ -30,10 +31,10 @@ function FieldBoard(props){
 
 
                 <div className={`PlayersContainer f${formation}`}>
-                    {formations[0].positions.map(position => <PlayerBtn linkTo="buy-players" position={position.name} key={position.id} />)}
+                    {formations[0].positions.map(position => <PlayerBtn linkTo={`buy-players/${position.name}`} position={position.name} key={position.id} />)}
                 </div>
+                
             </section>
-            
         )
     }
 }

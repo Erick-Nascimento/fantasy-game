@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     element: <CreateLeague />
   },
   {
-    path: "create-league/buy-players",
+    path: "create-league/buy-players/:position",
     element: <BuyPlayers />
   },
   {
