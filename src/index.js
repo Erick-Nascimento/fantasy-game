@@ -3,34 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './reset.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './routes/home';
 import CreateLeague from './routes/create-league';
 import BuyPlayers from './routes/buy-players';
 import Store from './routes/store';
+import FormationsProvider from './context';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />
-  },
-  {
-    path: "create-league",
-    element: <CreateLeague />
-  },
-  {
-    path: "create-league/buy-players/:position",
-    element: <BuyPlayers />
-  },
-  {
-    path: "store",
-    element: <Store />
-  }
-])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <BrowserRouter>
+      <FormationsProvider>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="create-league" element={<CreateLeague />} />
+            <Route path="create-league/buy-players/:position" element={<BuyPlayers />} />
+            <Route path="store" element={<Store />} />
+        </Routes>
+      </FormationsProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

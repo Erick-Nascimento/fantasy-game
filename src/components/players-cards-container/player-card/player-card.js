@@ -5,7 +5,7 @@ import ClockIcon from '../../../assets/img/clock-icon.svg';
 import PlayerIcon from '../../player-icon/player-icon';
 import InfosContainer from './infos-container/infos-container';
 
-function PlayerCard({name, team, opponent, date, hour, price}){
+function PlayerCard({id, name, team, opponent, date, hour, price}){
     return(
         <div className='playerCard'>
             <div className='playerCard__top'>
@@ -26,7 +26,7 @@ function PlayerCard({name, team, opponent, date, hour, price}){
                         </div>
                     </div>
                 </div>
-                <TransactionBtn />
+                <TransactionBtn playerId={id}/>
             </div>
             <div className='playerCard__bottom'>
                 <div className='price'>

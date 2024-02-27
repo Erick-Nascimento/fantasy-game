@@ -10,7 +10,7 @@ import {FormationsContext} from '../../context';
 
 function BoardControllers(){
     const {formation} = useContext(FormationsContext)
-    console.log(formation)
+    //console.log(formation)
     return(
         <section className='BoardControllers'>
             <FormationSelect />

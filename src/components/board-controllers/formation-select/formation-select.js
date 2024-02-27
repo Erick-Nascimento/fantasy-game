@@ -3,13 +3,13 @@ import './formation-select.scss';
 import {FormationsContext} from '../../../context';
 
 function FormationSelect(){
-    const {setFormation} = useContext(FormationsContext)
-    const formation = function selectFormation(e){
+    const {formation, setFormation} = useContext(FormationsContext)
+    const changeFormation = function selectFormation(e){
         //console.log(e.target.value)
         setFormation(e.target.value)
     }
     return (
-        <select onChange={formation} defaultValue={'4-3-3'}>
+        <select onChange={changeFormation} defaultValue={formation}>
             <option value="4-3-3">4-3-3</option>
             <option value="3-4-3">3-4-3</option>
             <option value="4-5-1">4-5-1</option>

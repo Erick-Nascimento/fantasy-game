@@ -4,7 +4,6 @@ import FieldBoard from "../field-board/field-board";
 import BenchCard from "../bench-card/bench-card";
 import PlayerSellModal from "../player-sell-modal/player-sell-modal"
 import { useState } from 'react';
-import FormationsProvider from '../../context';
 
 
 function EscalationControls(){
@@ -12,10 +11,9 @@ function EscalationControls(){
    
     return(
         <div className='EscalationControls'>
-            <FormationsProvider>
-                <BoardControllers />
-                <FieldBoard/>
-            </FormationsProvider>
+            
+            <BoardControllers />
+            <FieldBoard/>
             <BenchCard />
             {isOpen ? <PlayerSellModal /> : null}
         </div>

@@ -42,7 +42,7 @@
                     "status": "confirmed"
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "name": "Endrick Felipe",
                     "team": "Palmeiras",
                     "price": 14000,
@@ -51,21 +51,21 @@
             ],
             "midfielder": [
                 {
-                    "id": 1,
+                    "id": 5,
                     "name": "Gerson",
                     "team": "Flamengo",
                     "price": 12000,
                     "status": "confirmed"
                 },
                 {
-                    "id": 2,
+                    "id": 6,
                     "name": "Carlos Eduardo",
                     "team": "Botafogo",
                     "price": 12000,
                     "status": "confirmed"
                 },
                 {
-                    "id": 2,
+                    "id": 7,
                     "name": "Thiago Maia",
                     "team": "Flamengo",
                     "price": 12000,
@@ -74,14 +74,14 @@
             ],
             "full-back": [
                 {
-                    "id": 1,
+                    "id": 8,
                     "name": "Ayrton Lucas",
                     "team": "Flamengo",
                     "price": 12000,
                     "status": "confirmed"
                 },
                 {
-                    "id": 2,
+                    "id": 9,
                     "name": "Bruno Henrique",
                     "team": "Flamengo",
                     "price": 12000,
@@ -90,28 +90,28 @@
             ],
             "defender": [
                 {
-                    "id": 1,
+                    "id": 10,
                     "name": "David Luiz",
                     "team": "Flamengo",
                     "price": 12000,
                     "status": "confirmed"
                 },
                 {
-                    "id": 3,
+                    "id": 11,
                     "name": "Tinga",
                     "team": "Fortaleza",
                     "price": 12000,
                     "status": "confirmed"
                 },
                 {
-                    "id": 2,
+                    "id": 12,
                     "name": "Felipe Luiz",
                     "team": "Flamengo",
                     "price": 12000,
                     "status": "confirmed"
                 },
                 {
-                    "id": 3,
+                    "id": 13,
                     "name": "Leo Pereira",
                     "team": "Flamengo",
                     "price": 12000,
@@ -120,28 +120,28 @@
             ],
             "goalkeeper": [
                 {
-                    "id": 1,
+                    "id": 14,
                     "name": "Santos",
                     "team": "Flamengo",
                     "price": 12000,
                     "status": "confirmed"
                 },
                 {
-                    "id": 3,
+                    "id": 15,
                     "name": "Weverton",
                     "team": "Palmeiras",
                     "price": 12000,
                     "status": "confirmed"
                 },
                 {
-                    "id": 3,
+                    "id": 16,
                     "name": "Lucas Perri",
                     "team": "Botafogo",
                     "price": 12000,
                     "status": "confirmed"
                 },
                 {
-                    "id": 2,
+                    "id": 17,
                     "name": "Hugo Souza",
                     "team": "Flamengo",
                     "price": 12000,
