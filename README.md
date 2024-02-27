@@ -6,3 +6,5 @@ Este app utiliza o json-server para simular um banco de dados com os jogadores, 
 
 Para rodar o projeto rode o comando
 `npm start`
+
+Teste
